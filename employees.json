@@ -1,0 +1,463 @@
+{
+  "employees": [
+    {
+      "employee_id": "EMP001",
+      "name": "Amit Verma",
+      "email": "amit@company.com",
+      "password": "amit123",
+      "is_manager": true,
+      "manager": null,
+      "blue_points": 30,
+      "seat_assigned": 0,
+      "reservations": [
+        {
+          "reservation_number": 910001,
+          "floor": 1,
+          "number_of_seats": 1,
+          "seat_numbers": "45",
+          "booked_for": "amit@company.com",
+          "date": "2026-01-14",
+          "slot_time": "12:30 PM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP002",
+      "name": "Neha Singh",
+      "email": "neha@company.com",
+      "password": "neha123",
+      "is_manager": true,
+      "manager": null,
+      "blue_points": 28,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910002,
+          "floor": 1,
+          "number_of_seats": 2,
+          "seat_numbers": "10,11",
+          "booked_for": "neha@company.com,rohit@company.com",
+          "date": "2026-01-13",
+          "slot_time": "11:00 AM",
+          "duration": "15 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP003",
+      "name": "Rahul Mehta",
+      "email": "rahul@company.com",
+      "password": "rahul123",
+      "is_manager": true,
+      "manager": null,
+      "blue_points": 27,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP004",
+      "name": "Priya Nair",
+      "email": "priya@company.com",
+      "password": "priya123",
+      "is_manager": true,
+      "manager": null,
+      "blue_points": 29,
+      "seat_assigned": 0,
+      "reservations": [
+        {
+          "reservation_number": 910004,
+          "floor": 2,
+          "number_of_seats": 3,
+          "seat_numbers": "60,61,62",
+          "booked_for": "priya@company.com,anjali@company.com",
+          "date": "2026-01-12",
+          "slot_time": "02:00 PM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP005",
+      "name": "Karan Patel",
+      "email": "karan@company.com",
+      "password": "karan123",
+      "is_manager": true,
+      "manager": null,
+      "blue_points": 26,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP006",
+      "name": "Sneha Patil",
+      "email": "sneha@company.com",
+      "password": "sneha123",
+      "is_manager": false,
+      "manager": "amit@company.com",
+      "blue_points": 18,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910006,
+          "floor": 1,
+          "number_of_seats": 1,
+          "seat_numbers": "33",
+          "booked_for": "sneha@company.com",
+          "date": "2026-01-11",
+          "slot_time": "01:00 PM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP007",
+      "name": "Rohit Kumar",
+      "email": "rohit@company.com",
+      "password": "rohit123",
+      "is_manager": false,
+      "manager": "neha@company.com",
+      "blue_points": 14,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910007,
+          "floor": 2,
+          "number_of_seats": 2,
+          "seat_numbers": "90,91",
+          "booked_for": "rohit@company.com,sneha@company.com",
+          "date": "2026-01-10",
+          "slot_time": "10:30 AM",
+          "duration": "15 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP008",
+      "name": "Anjali Gupta",
+      "email": "anjali@company.com",
+      "password": "anjali123",
+      "is_manager": false,
+      "manager": "rahul@company.com",
+      "blue_points": 20,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP009",
+      "name": "Vikram Rao",
+      "email": "vikram@company.com",
+      "password": "vikram123",
+      "is_manager": false,
+      "manager": "priya@company.com",
+      "blue_points": 9,
+      "seat_assigned": 0,
+      "reservations": [
+        {
+          "reservation_number": 910009,
+          "floor": 1,
+          "number_of_seats": 1,
+          "seat_numbers": "5",
+          "booked_for": "vikram@company.com",
+          "date": "2026-01-09",
+          "slot_time": "09:30 AM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP010",
+      "name": "Arjun Das",
+      "email": "arjun@company.com",
+      "password": "arjun123",
+      "is_manager": false,
+      "manager": "karan@company.com",
+      "blue_points": 11,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP011",
+      "name": "Pooja Shah",
+      "email": "pooja@company.com",
+      "password": "pooja123",
+      "is_manager": false,
+      "manager": "amit@company.com",
+      "blue_points": 7,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910011,
+          "floor": 1,
+          "number_of_seats": 2,
+          "seat_numbers": "40,41",
+          "booked_for": "pooja@company.com,dev@company.com",
+          "date": "2026-01-08",
+          "slot_time": "12:00 PM",
+          "duration": "15 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP012",
+      "name": "Sahil Jain",
+      "email": "sahil@company.com",
+      "password": "sahil123",
+      "is_manager": false,
+      "manager": "neha@company.com",
+      "blue_points": 16,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP013",
+      "name": "Nikhil Bose",
+      "email": "nikhil@company.com",
+      "password": "nikhil123",
+      "is_manager": false,
+      "manager": "rahul@company.com",
+      "blue_points": 13,
+      "seat_assigned": 0,
+      "reservations": [
+        {
+          "reservation_number": 910013,
+          "floor": 2,
+          "number_of_seats": 1,
+          "seat_numbers": "75",
+          "booked_for": "nikhil@company.com",
+          "date": "2026-01-07",
+          "slot_time": "03:00 PM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP014",
+      "name": "Riya Malhotra",
+      "email": "riya@company.com",
+      "password": "riya123",
+      "is_manager": false,
+      "manager": "priya@company.com",
+      "blue_points": 15,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP015",
+      "name": "Aditya Kulkarni",
+      "email": "aditya@company.com",
+      "password": "aditya123",
+      "is_manager": false,
+      "manager": "karan@company.com",
+      "blue_points": 8,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP016",
+      "name": "Mehul Arora",
+      "email": "mehul@company.com",
+      "password": "mehul123",
+      "is_manager": false,
+      "manager": "amit@company.com",
+      "blue_points": 19,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910016,
+          "floor": 1,
+          "number_of_seats": 1,
+          "seat_numbers": "20",
+          "booked_for": "mehul@company.com",
+          "date": "2026-01-06",
+          "slot_time": "11:30 AM",
+          "duration": "15 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP017",
+      "name": "Tanvi Joshi",
+      "email": "tanvi@company.com",
+      "password": "tanvi123",
+      "is_manager": false,
+      "manager": "neha@company.com",
+      "blue_points": 6,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP018",
+      "name": "Kunal Mishra",
+      "email": "kunal@company.com",
+      "password": "kunal123",
+      "is_manager": false,
+      "manager": "rahul@company.com",
+      "blue_points": 17,
+      "seat_assigned": 1,
+      "reservations": [
+        {
+          "reservation_number": 910018,
+          "floor": 2,
+          "number_of_seats": 2,
+          "seat_numbers": "55,56",
+          "booked_for": "kunal@company.com,isha@company.com",
+          "date": "2026-01-05",
+          "slot_time": "02:30 PM",
+          "duration": "30 min"
+        }
+      ]
+    },
+
+    {
+      "employee_id": "EMP019",
+      "name": "Isha Roy",
+      "email": "isha@company.com",
+      "password": "isha123",
+      "is_manager": false,
+      "manager": "priya@company.com",
+      "blue_points": 10,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP020",
+      "name": "Manav Khanna",
+      "email": "manav@company.com",
+      "password": "manav123",
+      "is_manager": false,
+      "manager": "karan@company.com",
+      "blue_points": 12,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP021",
+      "name": "Ayesha Khan",
+      "email": "ayesha@company.com",
+      "password": "ayesha123",
+      "is_manager": false,
+      "manager": "amit@company.com",
+      "blue_points": 5,
+      "seat_assigned": 0,
+      "reservations": [
+        {
+          "reservation_number": 910021,
+          "floor": 1,
+          "number_of_seats": 1,
+          "seat_numbers": "8",
+          "booked_for": "ayesha@company.com",
+          "date": "2026-01-04",
+          "slot_time": "09:00 AM",
+          "duration": "30 min"
+        }
+      ]
+    },
+    {
+      "employee_id": "EMP022",
+      "name": "Harsh Vardhan",
+      "email": "harsh@company.com",
+      "password": "harsh123",
+      "is_manager": false,
+      "manager": "neha@company.com",
+      "blue_points": 18,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP023",
+      "name": "Suman Iyer",
+      "email": "suman@company.com",
+      "password": "suman123",
+      "is_manager": false,
+      "manager": "rahul@company.com",
+      "blue_points": 9,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP024",
+      "name": "Dev Banerjee",
+      "email": "dev@company.com",
+      "password": "dev123",
+      "is_manager": false,
+      "manager": "priya@company.com",
+      "blue_points": 14,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP025",
+      "name": "Shreya Sen",
+      "email": "shreya@company.com",
+      "password": "shreya123",
+      "is_manager": false,
+      "manager": "karan@company.com",
+      "blue_points": 16,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP026",
+      "name": "Varun Chawla",
+      "email": "varun@company.com",
+      "password": "varun123",
+      "is_manager": false,
+      "manager": "amit@company.com",
+      "blue_points": 11,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP027",
+      "name": "Naina Kapoor",
+      "email": "naina@company.com",
+      "password": "naina123",
+      "is_manager": false,
+      "manager": "neha@company.com",
+      "blue_points": 7,
+      "seat_assigned": 0,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP028",
+      "name": "Rakesh Pillai",
+      "email": "rakesh@company.com",
+      "password": "rakesh123",
+      "is_manager": false,
+      "manager": "rahul@company.com",
+      "blue_points": 13,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+
+    {
+      "employee_id": "EMP029",
+      "name": "Lavanya Menon",
+      "email": "lavanya@company.com",
+      "password": "lavanya123",
+      "is_manager": false,
+      "manager": "priya@company.com",
+      "blue_points": 19,
+      "seat_assigned": 1,
+      "reservations": []
+    },
+    {
+      "employee_id": "EMP030",
+      "name": "Siddharth Gill",
+      "email": "siddharth@company.com",
+      "password": "siddharth123",
+      "is_manager": false,
+      "manager": "karan@company.com",
+      "blue_points": 8,
+      "seat_assigned": 1,
+      "reservations": []
+    }
+  ]
+}
